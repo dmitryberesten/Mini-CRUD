@@ -1,0 +1,32 @@
+{
+  "name": "miniproject_asyncwork",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://Kilim4ik.github.io/MiniProject_AsyncWork",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /MiniProject_AsyncWork/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kilim4ik/MiniProject_AsyncWork.git"
+  },
+  "keywords": [],
+  "author": "Danylo Lavrovskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kilim4ik/MiniProject_AsyncWork/issues"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "modern-normalize": "^1.1.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

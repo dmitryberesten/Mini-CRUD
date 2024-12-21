@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Блог</h1>
+
+  <form id="searchForm">
+    <input type="text" id="searchInput" placeholder="Пошук за заголовком чи змістом" />
+    <button type="submit">Пошук</button>
+  </form>
+
+
+<form id="createPostForm">
+  <input type="text" id="titleInput" placeholder="Заголовок" required>
+  <textarea id="contentInput" placeholder="Зміст" required></textarea>
+  <input type="text" id="imageUrlInput" placeholder="URL картинки (не обов'язково)">
+  <button type="submit">Створити пост</button>
+</form>
+
+<div id="postsContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

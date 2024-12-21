@@ -1,0 +1,17 @@
+{
+  "posts": [
+    {
+      "id": "5404",
+      "title": "Пост",
+      "content": "Хело ",
+      "imageUrl": "https://pustunchik.ua/uploads/school/fe4590b8caa71724f1753b0f782d88fd.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": "89e8",
+      "postId": "5404",
+      "comment": "Норм горобці :)"
+    }
+  ]
+}
